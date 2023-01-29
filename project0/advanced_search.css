@@ -1,0 +1,95 @@
+#ad_search {
+  color: #d93025;
+  font-size: 20px;
+  margin: 25px 35px;
+  font-family: arial,sans-serif; }
+
+#border {
+  border-bottom: 1px solid #ebebeb; }
+
+body {
+  font-family: arial,sans-serif;
+  height: 100vh; }
+
+.underborder {
+  max-width: 1140px;
+  min-width: 200px;
+  width: 96%;
+  margin: 40px 2% 0 45px;
+  font-size: 20px;
+  font-family: arial,sans-serif; }
+  .underborder form .I_1head {
+    clear: both; }
+    .underborder form .I_1head #textFesHeading {
+      float: left;
+      display: inline-block;
+      height: 30px;
+      display: table-cell;
+      vertical-align: middle;
+      font-size: 100%;
+      font-weight: 700;
+      width: 16%; }
+    .underborder form .I_1head #blankspot {
+      float: left;
+      display: inline-block;
+      width: 50%;
+      min-width: 167px;
+      min-height: 41px;
+      vertical-align: middle; }
+    .underborder form .I_1head #ToDoHeading {
+      display: inline-block;
+      float: left;
+      width: 33%;
+      font-size: 13px;
+      font-weight: 700;
+      color: #777;
+      padding-left: 5px;
+      vertical-align: middle; }
+  .underborder form .I_1 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 0; }
+    .underborder form .I_1 label {
+      width: 16%;
+      font-size: 14px; }
+    .underborder form .I_1 input {
+      width: 49%;
+      padding: 2px 0; }
+    .underborder form .I_1 .ToDo {
+      font-size: 11px;
+      width: 30%;
+      margin-left: 1%; }
+      .underborder form .I_1 .ToDo span {
+        font-family: monospace; }
+  .underborder form #blue {
+    width: 66%; }
+    .underborder form #blue input {
+      background-color: dodgerblue;
+      color: white;
+      font-size: smaller;
+      max-width: 200px;
+      border-radius: 0px;
+      border: 1px solid #156bbd;
+      float: right;
+      padding: 10px 2px;
+      margin: 0; }
+
+input {
+  font-size: 16px;
+  width: 300px;
+  padding: 13px 0; }
+  input:focus {
+    outline: none; }
+  input[type="text"] {
+    color: #464646;
+    margin: 0 0 0 5px; }
+  input[type="submit"] {
+    font-size: 14px;
+    width: 185px;
+    border-width: 0px;
+    margin: 20px; }
+    input[type="submit"]:hover {
+      box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8); }
+
+/*# sourceMappingURL=advanced_search.css.map */
